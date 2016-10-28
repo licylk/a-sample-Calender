@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-size:16px; padding:0; margin:0;}
+a {text-decoration:none; font-size:18px;margin:0 10px;font-weight:bold;color:red;}
+
+.calender {width:350px;height:350px;margin:100px auto; border:1px solid #ccc;background:#FFC;}
+.calender input {width:80px;}
+.calender td, .calender th {width:50px;height:50px;text-align:center;font-size:16px;border:1px solid #ccc;}
+.calender td:hover, .calender td:focus {color:red;font-weight:bold;border:1px solid red;} 
+.outdate {background:#ccc;}
+.calender .thisDay {border:1px solid black;background:#FCC;}
